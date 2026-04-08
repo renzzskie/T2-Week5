@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Rendy Wahyu Islami</title>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-slate-50 text-gray-800 font-sans leading-relaxed">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#" class="logo">
+                Renzzksie<span>Here</span>
+            </a>
+            <div class="space-x-6 hidden md:flex font-medium">
+                <a href="#beranda" class="nav-link">Beranda</a>
+                <a href="#tentang" class="nav-link">Tentang</a>
+                <a href="#keahlian" class="nav-link">Keahlian</a>
+                <a href="#kontak" class="btn-primary">Kontak</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header id="beranda" class="max-w-6xl mx-auto px-4 py-20 flex flex-col md:flex-row items-center gap-10">
+        
+        <div class="w-full md:w-1/2 flex justify-center">
+            <img src="aing.jpeg" alt="Foto Rendy" class="hero-img">
+        </div>
+
+        <div class="w-full md:w-1/2 text-center md:text-left">
+            <p class="text-lg text-blue-600 font-semibold mb-2">Halo, perkenalkan saya</p>
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Rendy Wahyu Islami</h1>
+            <p class="text-gray-600 text-lg mb-8">
+                Mahasiswa Teknik Informatika di Universitas Mataram yang bersemangat dalam eksplorasi Web Development, Desain, dan Teknologi Terbarukan di Masa Depan.
+            </p>
+            <a href="#tentang" class="btn-outline">Ayo Jelajahi Profilku!</a>
+        </div>
+
+    </header>
+
+    <main>
+
+        <!-- Tentang -->
+        <section id="tentang" class="section-box">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="section-title">About Me</h2>
+                <p class="text-gray-600 text-lg">
+                    Sejak menempuh pendidikan di SMAN 1 Praya hingga sekarang saya berada di Program Studi Teknik Informatika, saya selalu memiliki ketertarikan yang sangat tinggi terhadap bagaimana teknologi memecahkan masalah sehari-hari. Saya sangat menikmati proses coding (terutama HTML, CSS, JavaScript) sama besarnya dengan proses mengedit video/foto.
+                </p>
+            </div>
+        </section>
+
+        <!-- Keahlian -->
+        <section id="keahlian" class="max-w-6xl mx-auto px-4 py-16">
+            <h2 class="section-title text-center">Keahlian & Kemampuan</h2>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <div class="card">
+                    <h3 class="card-title">💻 Web Development</h3>
+                    <p>HTML, CSS, JavaScript, Tailwind</p>
+                </div>
+
+                <div class="card">
+                    <h3 class="card-title">🎨 Editing & Desain</h3>
+                    <p>Pixellab, Adobe Photoshop, Illustrator, Canva, Adobe Lightroom, Capcut.</p>
+                </div>
+
+                <div class="card">
+                    <h3 class="card-title">🗄️ Bahasa Pemrograman</h3>
+                    <p>C++, Python, Java</p>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer id="kontak" class="bg-gray-900 text-white py-8">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <h3 class="text-2xl font-bold mb-4">Mari Berdiskusi!</h3>
+
+            <div class="contact-box">
+                <a href="mailto:rendywahyuislami@gmail.com">📧 Email</a>
+                <a href="https://github.com/renzzskie" target="_blank" rel="noopener noreferrer">💻 Github</a>
+                <a href="https://instagram.com/rendyzzz._" target="_blank" rel="noopener noreferrer">📷 Instagram</a>
+            </div>
+
+            <hr class="border-gray-700 my-6">
+
+            <p class="text-gray-500 text-left">&copy; 2026 Rendy Wahyu Islami</p>
+        </div>
+    </footer>
+
+</body>
+</html>
